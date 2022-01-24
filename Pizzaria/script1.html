@@ -14,7 +14,7 @@
         font-family: 'Amatic SC', cursive;
       }
       h1 {
-        font-size: 25px;
+        font-size: 18px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: 5;
       }
@@ -46,23 +46,23 @@
         background-color: #eeeeee;
       } 
       .pagina_inteira {
-        width: 60%;
+        width: 100%;
         margin: 0 auto;
       }
       .centered {
-	      display: table;
-	      margin: 0 auto;
+        display: table;
+        margin: 0 auto;
       }
     </style>
   </head>
 
   <body>
-    <div class='pagina_inteira'>
+    <div class='pagina_inteira' id="ind_home">
       <header class='centered'>
         <ul>
-          <li class='menu'><a href='#'><h1>Home</h1></a></li>
-          <li class='menu'><a href='#'><h1>About</h1></a></li>
-          <li class='menu'><a href='#'><h1>Menu</h1></a></li>
+          <li class='menu'><a href='#ind_home'><h1>Home</h1></a></li>
+          <li class='menu'><a href='#ind_about'><h1>About</h1></a></li>
+          <li class='menu'><a href='#ind_menu'><h1>Menu</h1></a></li>
           <li class='menu'><a href='#'><h1>Where</h1></a></li>
         </ul>
       </header>
@@ -72,8 +72,8 @@
       </div>
 
       <div>
-        <h2 class='centered'>The menu</h2>
-        <ul>
+        <h2 class='centered' id="ind_menu">The menu<br><br></h2>
+        <ul class= 'centered'>
           <li><h3>Margherita</h3></li>
           <li><h3>Fresh tomatoes, fresh mozzarela, fresh basil - $12,50<br><br></h3></li>
           <li><h3>Formaggio</h3></li>
@@ -88,6 +88,40 @@
           <li><h3>Fresh tomatoes, mozzarela, parma, bacon, fresh arugula - $18,50<br><br></h3></li>
         </ul>
       </div>
+
+       <div>
+        <h2 class='centered' id="ind_about">About<br><br></h2>
+        <ul class= 'centered'>
+          <li><h3>The  pizza restaurant was founded in lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor.</h3></li>
+          <li><h3>The chef? Mr. Italiano Himself<br><br></h3></li>
+          <li><h3>We are proud of our interiors</h3></li>
+        </ul>
+      </div>
+
+      <div class='centered'>
+        <img src='Imagens_PNG/onepage_restaurant.png' style='width:max-content' alt='Foto about'>
+      </div>
+
+      <div class='centered'>
+        <table>
+          <tr>
+            <th><h3>Opening Hours</h3></th>
+          </tr>
+          <tr>
+            <th><h3>Mon & Tue Closed</h3></th>
+            <th><h3>Friday 10.00 - 12.00</h3></th>
+          </tr>
+          <tr>
+            <th><h3>Wednesday 10.00 - 24.00&nbsp&nbsp&nbsp&nbsp&nbsp</h3></th>
+            <th><h3>Saturday 10.00 - 23.00</h3></th>
+          </tr>
+          <tr>
+            <th><h3>Thursday 10.00 - 24.00</h3></th>
+            <th><h3>Sunday closed</h3></th>
+          </tr>
+        </table>
+      </div>
+
     </div>
   </body>
 </html>
