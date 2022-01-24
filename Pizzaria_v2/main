@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pizza!</title>
+    <meta charset="UTF-8">
+    <meta lang="pt-br">    
+  </head>
+
+  <body>
+    <div>
+      <header>
+        <ul>
+          <li><a href='#home_section'><h1>Home</h1></a></li>
+          <li><a href='#frame1'><h1>About</h1></a></li>
+          <li><a href='#menu_section'><h1>Menu</h1></a></li>
+          <li><a href='#frame2'><h1>Where</h1></a></li>
+        </ul>
+      </header>
+      
+      <section id="home_section">
+        <figure>
+          <img src='Imagens_PNG/pizza_1.png' style='width:max-content' alt='Foto da pizza'>          
+        </figure>        
+      </section>
+
+      <section id="menu_section">
+        <h2>THE MENU</h2>
+        <dl>
+          <dt><h3>Margherita</h3></dt>
+            <dd><h3>Fresh tomatoes, fresh mozzarela, fresh basil - $12,50<br><br></h3></dd>
+          <dt><h3>Formaggio</h3></dt>
+            <dd><h3>Four Cheeses (mozzarela, parmesan, pecorino, jarslberb) - $17,00<br><br></h3></dd>
+          <dt><h3>Chicken</h3></dt>
+            <dd><h3>Fresh tomatoes, mozzarela, chicken, onions - $15,50<br></h3></dd>
+          <dt><h3>Pineapple 'O' clock</h3></dt>
+            <dd><h3>Fresh tomatoes, mozzarela, fresh pineapple, bacon, fresh basil - $16,50<br><br></h3></dd>
+          <dt><h3>Meat Town</h3></dt>
+            <dd><h3>Fresh tomatoes, mozzarela, hot pepperoni, hot sausage, beef, chicken - $20,00<br><br></h3></dd>
+          <dt><h3>Parma</h3></dt>
+            <dd><h3>Fresh tomatoes, mozzarela, parma, bacon, fresh arugula - $18,50<br><br></h3></dd>
+        </dl>       
+      </section>
+
+      <div>
+        <iframe src="frame1.html" id="frame1"></iframe>        
+      </div>
+      
+      <div>
+        <iframe src="frame2.html" id="frame2"></iframe>        
+      </div>
+
+      <section>
+        <h2>CONTACT</h2>
+        <p><h3>
+          Find us at some address at some place.<br><br>
+          FYI! We offer full-service catering fot any event, large or small. We understand your needs and will  cater the food to satisfy the biggest criteria of them all, both look and taste.<br><br>
+          Reserve a table, ask for today’s special or just send us a message:<br><br>
+        </h3></p>
+
+        <form action="teste.jsp" method="GET">
+          <input type="text" name="nome" value="Name" required><br>
+          <input type="text" name="numero_pessoas" value="How many people" required><br>
+          <input type="text" name="data" value="16/11/2017 20:00" required><br>
+          <input type="text" name="message" value="Message\Special requirements" required><br>
+          <input type="submit" name="btn_enviar" value="Send Message">          
+        </form>
+      </section>
+
+    </div>
+
+  </body>
+
+</html>
