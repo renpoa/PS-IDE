@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang='pt-br'>
+
+  <head>
+
+    <title>Pizza!!!</title>
+    <meta charset="UTF-8">
+    <meta lang="pt-br">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <style type="text/css">
+      body {
+        background: black;                
+      }
+      h1
+      {
+        font-family: 'Amatic SC', cursive;
+        color: white;
+        font-size: 400%;
+        margin-bottom: 50px;
+      }
+      div
+      {
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        height: 1000px;
+      }
+      div:after
+      {
+        content: "";
+        display: table;
+        clear: both;
+
+      }
+      iframe
+      {
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 0;
+      }
+      a
+      {
+        border: 0;
+        color: white;
+        width: 33.33%;
+        float: left;
+        font-size: 200%;
+        font-family: 'Amatic SC', cursive;
+        text-decoration:none;
+        text-align: center;
+      }
+      ul
+      {
+        position: relative;
+        margin-left: 0;
+        padding-left: 0;
+      }      
+      li
+      {
+        display: inline;
+      }
+      li > a 
+      {
+        background: black;      
+      }
+      li:not(:target) a 
+      {
+        border-bottom: 0 none;
+      }
+      li:target a, a:hover 
+      {
+        background: red;
+      }
+      .cardapio 
+      {
+        position: absolute;
+        left: 0;
+        top: calc(40px);
+        z-index: -2;
+      }
+      li:target .cardapio 
+      {
+        z-index: -1;
+      }
+    </style>    
+  </head>
+
+  <body>
+    <h1  align="center">The Menu</h1>
+    <div>
+      <ul>
+        <!-- primeira aba -->
+        <li id="pizza">
+          <a href="#pizza">Pizza</a>
+          <iframe class="cardapio" src="f_pizza.html" width="100%" height="900"></iframe>
+        </li>  
+        <!-- segunda aba -->
+        <li id="salads">
+          <a href="#salads">Salads</a> 
+          <iframe class="cardapio" src="f_salads.html" width="100%" height="900"></iframe>
+        </li>
+        <!-- terceira aba -->
+        <li id="starter">
+          <a href="#starter">Starter</a> 
+          <iframe class="cardapio" src="f_starter.html" width="100%" height="900"></iframe>
+        </li>
+        </ul>
+    </div>            
+  </body>
+
+</hmtl>
