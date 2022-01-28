@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pizza!!!</title>
+    <link rel="icon" href="Imagens_PNG/pizza_icon.png" type="image/icon type">
+    <meta charset="UTF-8">
+    <meta lang="pt-br">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet"> 
+    <link rel='stylesheet' href='style.css'>
+  </head>
+
+  <body>
+    <header>
+    <ul class='nav' style="z-index: 2;">
+      <li class='menu'><a href='#home_section'><h1>Home</h1></a></li>
+      <li class='menu'><a href='#about_section'><h1>About</h1></a></li>
+      <li class='menu'><a href='#menu_section'><h1>Menu</h1></a></li>
+      <li class='menu'><a href='#where_section'><h1>Where</h1></a></li>
+    </ul>
+    </header>
+    
+    <section id="home_section">
+    <div class='pizza'>
+      <div style='padding-top: 200px;'>
+        <h2 class='centered big'>Thin</h2>
+        <h2 class='centered big'>crust pizza</h2>
+      </div>
+      <div style='padding-top: 20px;'></div>
+      <ul class='centered button'>
+        <li class='menu'><a href='#menu_section'><h3 style='color:white;'>Let me see the menu</h3></a></li>
+      </ul>
+      <div style='padding-top: 150px;'></div>
+      <ul class='button' style='display:table; margin-left: 10px'>
+        <li class='menu'><a href='#hours_section'><h3 style='color:white;'>Open from 10AM to 12PM</h3></a></li>
+      </ul>
+    </div>        
+    </section>
+
+    <section class="centered" id="menu_section" style="width:100%; background: black; scroll-margin-top: 65px;">
+      <iframe class="centered" src="i_menu/main.html" width='1000px' scrolling="no" height=1200 id="frame0" style="border:0;"></iframe><br>               
+    </section>
+
+    <section id='about_section' style="scroll-margin-top: 65px;">
+      <iframe src="frame_about.html" width="100%" height="1200" scrolling="no" style="border: 0;"></iframe>
+    </section>
+
+    <section id='where_section' style="background: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url('Imagens_PNG/map.png'); background-size: cover; scroll-margin-top: 65px;">
+      <div style="width:100%;">
+        <img class="centered" src='Imagens_PNG/map.png' width="860px" alt='Foto map' style="filter: grayscale(50%); z-index: 1;"></img>
+      </div>
+    </section>
+
+    <section   style="background: #6C7A81;">
+      <div style="width:100%;">
+        <iframe class="centered"  src="frame_where.html" width="100%" height="800" scrolling="no" style="border: 0;"></iframe>
+      </div>
+    </section>
+    
+    <section style="clear: both; width:100%; height:125px; background: black;"></section>    
+  </body>
+</html>

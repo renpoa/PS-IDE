@@ -1,0 +1,168 @@
+html
+{
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Amatic SC', cursive;
+  margin: 0px;
+}
+h1 {
+  font-size: 25px;
+  font-weight: lighter;
+  color: white;
+}
+h2 {
+  font-size: 50px;
+  padding: 40px 0px;
+}
+h2.big {
+  color: white;
+  font-size: 100px;
+  font-weight: lighter;
+  padding: 0px 0px 0px 0px;
+}
+h3 {
+  font-size: 40px;
+  font-weight: lighter;
+  margin: 7px 10px; 
+}
+h4 {
+  font-size: 30px;
+  font-weight: lighter;
+  margin: 7px 10px; 
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.nav {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(20, 20, 20, 0.6);
+}
+ul.button {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+ul.button:hover {
+  background-color: rgba(0, 0, 0, 1);
+}
+li.menu {
+  float: left;
+}
+li.nav-menu {
+  width: 268px
+}
+li a {
+  display: block;
+  color: #202020;
+  text-align: center;
+  padding: 1px 40px; 
+  text-decoration: none;
+}
+li a:hover {
+  background-color: rgba(50, 50, 50, 0.6);
+}
+li a.nav-menu {
+  display: block;
+  color: #202020;
+  text-align: center;
+  padding: 1px 1px; 
+  text-decoration: none;
+}
+li a.nav-menu:hover {
+  background-color: rgba(255, 0, 0, 0.733);
+}
+img.full {
+  max-width: 100%; 
+}
+input[type="text"], textarea {
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+  background-color : #E7E7E7;
+  border: 0;
+  /*padding-right: 243px;*/
+  width: 800px;
+  margin-bottom: 10px;
+}
+input[type="submit"], textarea {
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+  background-color : #E7E7E7;
+  border: 0;
+  width: 800px;
+  /*padding: 0px 160px;*/
+}  
+.centered {
+  display: table;
+  margin: 0 auto;
+}
+.limited {
+  max-width: 50%;
+}
+.pizza {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('Imagens_PNG/pizza_1.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: 130%;
+}
+.prato {
+  background-color: white;
+  border-style: solid;
+  border-color: #999999;
+  border-width: 1px;
+  padding: 20px 0px;
+}
+.tag-preco {
+  display: inline; 
+  float: right;
+  background-color: #606060;
+  border-radius: 5px;
+  color: white;
+  margin: 0px 20px;
+}
+.white {
+  color: white;
+}
+h4.white {
+  margin: 0px;
+  padding: 5px 0px;
+}
+.left {
+  text-align: left;
+}
+#about_section {
+  background-color: #72433f;
+  padding-bottom: 80px;
+}
+#about_section_size {
+  width: 804px;
+}
+#cardapio {
+  background-color: white;
+  border-style: solid;
+  border-color: #999999;
+  border-width: 1px;
+  width: 804px;
+}
+#chef {
+  position: absolute; 
+  right: 0; 
+  bottom: 0; 
+  margin-right: 20px;
+  border-radius: 50px;
+}
+#menu_section {
+  background-color: black;
+  /*padding-bottom: 80px;*/
+}
+#nav_menu {
+  background-color: black;
+}
+#pagina_inteira {
+  margin: 0 auto;
+  max-width: 50%;
+  background-color: #ffeeee;
+  padding: 10px;
+}
